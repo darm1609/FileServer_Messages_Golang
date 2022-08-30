@@ -1,4 +1,4 @@
-package FileServerMessages
+package FileServer_Messages_Golang
 
 type Messages struct {
 }
