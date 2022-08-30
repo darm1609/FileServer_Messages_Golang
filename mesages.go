@@ -97,6 +97,9 @@ func (m *Messages) Message(required string) string {
 	if required == "GUEST_GENERAL_Text_To_Send" {
 		return "Text to send: "
 	}
+	if required == "GUEST_Error_Max_File_Size" {
+		return "The file exceeds the size of: "
+	}
 	return ""
 
 }
