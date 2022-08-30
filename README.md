@@ -1,0 +1,1 @@
+#Modulo de mensajes comunes para FileServer (server y cliente) en Golang
