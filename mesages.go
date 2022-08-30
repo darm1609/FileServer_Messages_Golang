@@ -4,6 +4,14 @@ type Messages struct {
 }
 
 func (m *Messages) Message(required string) string {
+
+	if required == "MAX_FILESIZE" {
+		return "512000"
+	}
+
+	if required == "HOST_Error_Convert_Max_FileSize" {
+		return "error converting max file size"
+	}
 	if required == "HOST_HEAD_Unsoported" {
 		return "unsupported network protocol:"
 	}
