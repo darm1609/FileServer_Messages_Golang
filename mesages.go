@@ -6,7 +6,7 @@ type Messages struct {
 func (m *Messages) Message(required string) string {
 
 	if required == "MAX_FILESIZE" {
-		return "512000"
+		return "35000000"
 	}
 
 	if required == "HOST_Error_Convert_Max_FileSize" {
